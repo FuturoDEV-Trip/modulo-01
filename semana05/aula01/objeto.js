@@ -1,7 +1,7 @@
 const usuario = {
   nome: "Bruno",
-  idade: 25,
-  email: "email@email.com"
+  idade: 0,
+  email: ""
 }
 
 usuario.nome = "Rayssa"
