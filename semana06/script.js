@@ -167,7 +167,7 @@ pegarFotoPokemon();
 
 // Se você notar a função pegarFotoPokemon, ela é uma promise, ou seja, ela
 // retorna uma promise, então você pode usar o then e o catch para trata-la
-// console.log(pegarFotoPokemon());
+// console.log(pegarFotoPokemon()); // Promise { <pending> }
 pegarFotoPokemon()
   .then(() => {
     console.log("Deu certo");
